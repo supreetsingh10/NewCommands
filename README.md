@@ -1,5 +1,6 @@
 # NewCommands
 I made these command, when I didn't find a good alternative, and I had to stick to shell scripting to automate things.
+This will move all the files except the files you do not want to move.
 
 ## **smv**
 
@@ -14,5 +15,7 @@ All the files from the ~/Downloads except for lz.mp3 will move to Backup. It can
 In order to build this, you will need ```go```
 1. ```go build smv.go```
 2. ```sudo mv smv /usr/local/bin```
+
+After adding it in the PATH, now you can run this command in the terminal 
 
 
